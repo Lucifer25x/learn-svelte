@@ -16,6 +16,7 @@
     {:else}
         <p>{data.overview}</p>
     {/if}
+    <a href={`/movies/${data.page}/${data.id}`}>More</a>
 </div>
 
 <style>
@@ -58,5 +59,12 @@
     }
     span:hover {
         color: rgb(163, 105, 105);
+    }
+    a {
+        color: rgb(123, 200, 219);
+        font-weight: bold;
+    }
+    a:hover {
+        color: rgb(201, 192, 192);
     }
 </style>
