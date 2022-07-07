@@ -73,8 +73,13 @@
         color: white;
         background-color: rgba(61, 73, 109, .4);
         margin: 0 auto;
+        min-width: 300px;
+    }
+    .info h1 {
+        font-size: 1.4em;
     }
     .info p {
+        font-size: .8em;
         max-width: 100ch;
         margin: 0 auto;
     }
